@@ -11,10 +11,22 @@
             background-color: #000000;
             color: #d3d3d3; /* Light gray for text readability */
         }
+        .header {
+            display: flex;
+            align-items: center;
+            margin-bottom: 20px;
+        }
+        img.profile {
+            width: 150px;
+            height: auto;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+            margin-right: 20px;
+        }
         h1.title {
             font-size: 32px; /* Largest size for main title */
             color: #4682b4; /* Steel blue */
-            margin-bottom: 20px;
+            margin: 0;
         }
         h1.section {
             font-size: 24px; /* Second largest for Current Role and Research */
@@ -62,7 +74,10 @@
     </style>
 </head>
 <body>
-    <h1 class="title">Julieta Matevosyan, Ph.D.</h1>
+    <div class="header">
+        <img class="profile" src="https://raw.githubusercontent.com/Julieta7312/Julieta7312.github.io/main/Profile_photo.jpg" alt="Julieta Matevosyan Profile Picture">
+        <h1 class="title">Julieta Matevosyan, Ph.D.</h1>
+    </div>
     <p>Welcome to my website. View my full CV <a href="https://github.com/Julieta7312/Julieta7312.github.io/blob/main/Julieta_Matevosyan_Resume.pdf">here</a> for details on my education and professional experience, or visit my <a href="https://www.linkedin.com/in/julietamatevosyan/">LinkedIn profile</a> for more information.</p>
 
     <div class="section">
