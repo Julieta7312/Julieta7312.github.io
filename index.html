@@ -2,17 +2,24 @@
 <html>
 <head>
     <title>Julieta Matevosyan, Ph.D.</title>
+    <link href="https://fonts.googleapis.com/css2?family=Lora:wght@400;700&display=swap" rel="stylesheet">
     <style>
         body {
-            font-family: Arial, sans-serif;
+            font-family: 'Lora', sans-serif;
             margin: 40px;
             line-height: 1.6;
+            background-color: #000000;
+            color: #d3d3d3; /* Light gray for text readability */
         }
         h1 {
-            color: #2c3e50;
+            font-size: 18.67px; /* Equivalent to 14pt */
+            color: #2c3e50; /* Dark slate blue for h1 */
+            margin-bottom: 20px;
         }
         h2 {
-            color: #34495e;
+            color: #34495e; /* Slightly lighter slate blue for h2 */
+            font-size: 1.2em; /* Smaller size for consistency */
+            margin-top: 20px;
         }
         ul {
             list-style-type: disc;
@@ -23,157 +30,68 @@
         }
         p {
             margin-bottom: 20px;
+            color: #d3d3d3; /* Light gray for readability */
+        }
+        .section {
+            background-color: #1a1a1a; /* Dark gray for section backgrounds */
+            padding: 20px;
+            border-radius: 10px; /* Rounded corners for elegance */
+            margin-bottom: 20px;
+            transition: transform 0.2s; /* Subtle hover effect */
+        }
+        .section:hover {
+            transform: translateY(-5px); /* Slight lift on hover */
+        }
+        a {
+            color: #2c3e50; /* Dark slate blue for links, matching h1 */
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        .research-title {
+            font-weight: bold;
+            color: #2c3e50; /* Dark slate blue for research titles, matching h1 */
         }
     </style>
 </head>
 <body>
     <h1>Julieta Matevosyan, Ph.D.</h1>
-    <p>Welcome to My Website</p>
+    <p>Welcome to My Website. View my full CV <a href="https://github.com/Julieta7312/Julieta7312.github.io/blob/main/Julieta_Matevosyan_Resume.pdf">here</a> for details on my education and professional experience, or visit my <a href="https://www.linkedin.com/in/julietamatevosyan/">LinkedIn profile</a> for more information.</p>
 
-    <h1>Education</h1>
-    <h2>Hitotsubashi University, Tokyo, Japan</h2>
-    <ul>
-        <li>PhD Candidate, Graduate Schools of Social Data Science & Social Sciences, Ongoing
-            <ul>
-                <li>Academic Advisors: Jonathan Lewis, Ryo Kato</li>
-            </ul>
-        </li>
-        <li>M.A. in Social Sciences, Graduate School of Social Sciences, GPA: 3.79/4.3</li>
-        <li>Non-Degree Research Student, Media Laboratory
-            <ul>
-                <li>Academic Advisor: Jonathan Lewis</li>
-            </ul>
-        </li>
-    </ul>
-    <h2>Tokyo Institute of Technology, Graduate School of Computing, Tokyo, Japan</h2>
-    <ul>
-        <li>Exchange Student
-            <ul>
-                <li>Professors: Takenobu Tokunaga, Naoaki Okazaki</li>
-            </ul>
-        </li>
-    </ul>
-    <h2>Yerevan State University, Department of Political Science, Yerevan, Armenia</h2>
-    <ul>
-        <li>B.A. in Political Science (with Honors), GPA: 19.95/20
-            <ul>
-                <li>Thesis Advisor: Stella Jangozyan</li>
-            </ul>
-        </li>
-    </ul>
+    <div class="section">
+        <h1>Current Role</h1>
+        <h2>Philip Morris International, Tokyo, Japan</h2>
+        <ul>
+            <li>Data Scientist, April 2025 - Present
+                <ul>
+                    <li>Developed consumer segmentation models to enhance targeted marketing strategies using advanced clustering techniques.</li>
+                    <li>Designed sentiment analysis and topic modeling pipelines with Large Language Models to extract actionable insights from multilingual customer data.</li>
+                    <li>Implemented multi-touch attribution models to optimize marketing campaign performance and resource allocation.</li>
+                </ul>
+            </li>
+        </ul>
+    </div>
 
-    <h1>Professional Experience</h1>
-    <h2>Philip Morris International, Tokyo, Japan</h2>
-    <ul>
-        <li>Digital Function, Intern
-            <ul>
-                <li>Completed 90% of research and projects previously handled by 10 data science consultants.</li>
-                <li>Project 1: Data Pipeline - Fetched marketing data via REST APIs, processed with Polars, designed SQL database, and deployed on cloud workflow management system.</li>
-                <li>Project 2: Sentiment Analysis - Developed multilingual text sentiment generation pipeline using Large Language Models from HuggingFace, stored results and model snapshots on the cloud.</li>
-                <li>Project 3: Analytic Dashboard - Conducted exploratory data analysis and visualized outputs with Power BI.</li>
-                <li>Project 4: Research - Presented insights from derived features to C-Suite.</li>
-            </ul>
-        </li>
-    </ul>
-    <h2>Mitsubishi UFJ Financial Group, Tokyo, Japan</h2>
-    <ul>
-        <li>Data Scientist, Intern, Aug. 2023 - Sep. 2023
-            <ul>
-                <li>Identified predictors of credit card fraud using statistical methods and Language Models.</li>
-                <li>Processed features with Polars, external APIs, and statistical techniques.</li>
-                <li>Built a Neural Network in PyTorch to predict fraudulent transactions.</li>
-            </ul>
-        </li>
-    </ul>
-    <h2>Hitotsubashi University, Tokyo, Japan</h2>
-    <ul>
-        <li>Research Assistant, Sep. 2022 - Aug. 2023
-            <ul>
-                <li>Automated career and education data extraction, reducing 90 hours/week manual work for 6 people using Python web scraper.</li>
-                <li>Created mapping functions for database schema and cleaned text data for weekly Excel reports.</li>
-            </ul>
-        </li>
-        <li>Teaching Assistant, Summer Quarter, July - Aug. 2022
-            <ul>
-                <li>Course: Economics and Education (in Japanese)</li>
-                <li>Facilitated discussions for 70 students, provided teaching materials and feedback.</li>
-            </ul>
-        </li>
-        <li>Research Assistant, April 2020 - Sep. 2020
-            <ul>
-                <li>Loaded Japanese politicians’ follower networks into PostgreSQL using Python Twitter API, visualized centrality measures with Tableau.</li>
-            </ul>
-        </li>
-    </ul>
-    <h2>Mitsubishi Research Institute, Inc., Tokyo, Japan</h2>
-    <ul>
-        <li>Business Consultant, Intern, Aug. 2020 - Sep. 2020
-            <ul>
-                <li>Proposed sales plan for Japanese healthcare products in the Middle East based on social case studies.</li>
-            </ul>
-        </li>
-    </ul>
-    <h2>Central Electoral Commission of Armenia, Yerevan, Armenia</h2>
-    <ul>
-        <li>Administrative Secretary, Contract, Dec. 2015 - Apr. 2017
-            <ul>
-                <li>Managed setup of polling stations and vote counting/reporting for ~2000 votes.</li>
-            </ul>
-        </li>
-    </ul>
-    <h2>The Government of the Republic of Armenia, Yerevan, Armenia</h2>
-    <ul>
-        <li>Management Staff, Intern, May 2016 - June 2016
-            <ul>
-                <li>Analyzed three Armenian Constitutional amendments and prepared a report for internal discussion.</li>
-            </ul>
-        </li>
-    </ul>
-
-    <h1>Research</h1>
-    <ul>
-        <li>Matevosyan, J. (2024). Are Corporate Network Sequences Priced? Evidence from Japan. (in progress)</li>
-        <li>Matevosyan, J. (2024). Assessing the Impact of Public Policy on Youth Career Trajectories in Armenia. Under review at Social Science Quarterly.</li>
-        <li>Matevosyan, J. (2024). Investigating the Influence of ICT Sector Expansion on Career Choices among Young Armenians. Under review at International Journal of Educational Development.</li>
-        <li>Matevosyan, J. (2024). The Impact of Remittances Across All School Enrollment Rates in Post-Soviet States: A Panel Data Analysis. Under review at Post-Communist Economies.</li>
-        <li>Matevosyan, J. (2023). The Link Between Artists' Online Popularity and the Value of South Korean Entertainment Companies. Academy of Management Journal Paper Development Workshop, Kyoto, Japan, 15 April, 2023.</li>
-        <li>Matevosyan, J. (2022). The Role of Remittances and Youth Unemployment Rates in University Enrollment: Evidence from Post-Soviet Republics. Master's Thesis. 4th International Conference on Social Sciences, Humanities and Arts, 23 April, 2023. DOI: 10.13140/RG.2.2.21654.01601/2</li>
-        <li>Matevosyan, J. (2017). The Korean Issue in Modern International Relations: From Conflict's Origin to Current Prospects of Resolution. Bachelor's Thesis. DOI: 10.13140/RG.2.2.12603.28969</li>
-    </ul>
-
-    <h1>Projects</h1>
-    <ul>
-        <li>Data Pipeline (Philip Morris International)
-            <ul>
-                <li>Developed a pipeline using REST APIs and Polars, designed SQL database, and deployed on cloud.</li>
-            </ul>
-        </li>
-        <li>Sentiment Analysis (Philip Morris International)
-            <ul>
-                <li>Built a multilingual text sentiment generation pipeline with HuggingFace LLMs, stored on cloud.</li>
-            </ul>
-        </li>
-        <li>Analytic Dashboard (Philip Morris International)
-            <ul>
-                <li>Conducted EDA and visualized research outputs using Power BI.</li>
-            </ul>
-        </li>
-        <li>Fraud Detection (Mitsubishi UFJ Financial Group)
-            <ul>
-                <li>Developed a PyTorch Neural Network to predict credit card fraud using statistical methods and APIs.</li>
-            </ul>
-        </li>
-        <li>Data Extraction Automation (Hitotsubashi University)
-            <ul>
-                <li>Automated 90-hour/week data extraction task with Python web scraper and Excel reporting.</li>
-            </ul>
-        </li>
-        <li>Network Analysis (Hitotsubashi University)
-            <ul>
-                <li>Loaded Japanese politicians’ follower networks into PostgreSQL, visualized with Tableau.</li>
-            </ul>
-        </li>
-    </ul>
+    <div class="section">
+        <h1>Research</h1>
+        <ul>
+            <li><span class="research-title">Are Corporate Network Sequences Priced? Evidence from Japan</span> (2024, in progress)<br>
+                Investigating the pricing of corporate network sequences in the Japanese market using advanced econometric methods.</li>
+            <li><span class="research-title">Assessing the Impact of Public Policy on Youth Career Trajectories in Armenia</span> (2024, Under review at <i>Social Science Quarterly</i>)<br>
+                Analyzing how public policy shapes career paths for Armenian youth, leveraging panel data and causal inference techniques.</li>
+            <li><span class="research-title">Investigating the Influence of ICT Sector Expansion on Career Choices among Young Armenians</span> (2024, Under review at <i>International Journal of Educational Development</i>)<br>
+                Exploring the role of ICT sector growth in influencing career decisions among young Armenians, with a focus on educational and economic factors.</li>
+            <li><span class="research-title">The Impact of Remittances Across All School Enrollment Rates in Post-Soviet States: A Panel Data Analysis</span> (2024, Under review at <i>Post-Communist Economies</i>)<br>
+                Examining the effect of remittances on school enrollment rates across post-Soviet states using panel data analysis.</li>
+            <li><span class="research-title">The Link Between Artists' Online Popularity and the Value of South Korean Entertainment Companies</span> (2023, Academy of Management Journal Paper Development Workshop, Kyoto, Japan, 15 April, 2023)<br>
+                Studying the correlation between artists' social media presence and the financial valuation of South Korean entertainment firms.</li>
+            <li><span class="research-title">The Role of Remittances and Youth Unemployment Rates in University Enrollment: Evidence from Post-Soviet Republics</span> (2022, Master's Thesis, 4th International Conference on Social Sciences, Humanities and Arts, 23 April, 2023, <a href="https://doi.org/10.13140/RG.2.2.21654.01601/2">DOI: 10.13140/RG.2.2.21654.01601/2</a>)<br>
+                Analyzing how remittances and unemployment influence university enrollment in post-Soviet republics.</li>
+            <li><span class="research-title">The Korean Issue in Modern International Relations: From Conflict's Origin to Current Prospects of Resolution</span> (2017, Bachelor's Thesis, <a href="https://doi.org/10.13140/RG.2.2.12603.28969">DOI: 10.13140/RG.2.2.12603.28969</a>)<br>
+                Exploring the historical and contemporary dynamics of the Korean Peninsula's international relations.</li>
+        </ul>
+    </div>
 
 </body>
 </html>
