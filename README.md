@@ -1,1 +1,1 @@
-# julietamatevosyan.github.io
+Repository for storing GitHub personal website's code
