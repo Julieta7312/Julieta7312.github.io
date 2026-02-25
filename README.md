@@ -1,2 +1,4 @@
-Repository for storing GitHub personal website's code <br>
-Website URL: https://julieta7312.github.io/ <br>
+## Personal Website
+
+Source files for my personal website hosted on GitHub Pages.  
+🌐 https://julieta7312.github.io
